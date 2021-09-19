@@ -29,3 +29,22 @@ header .header-1 .form-container form #search{
     font-size: 1.5rem;
     padding: 0 1rem;
 }
+
+header .header-1 .form-container form #search:focus{
+    border-color: var(--blue);
+}
+
+header .header-1 .form-container form label{
+    height: 4rem;
+    width: 5rem;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 2rem;
+    cursor: pointer;
+    background: var(--blue);
+    color: #fff;
+}
+
+header .header-1 .form-container form label:hover{
+    color: yellow;
+}
