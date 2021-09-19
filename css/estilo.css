@@ -1,1 +1,11 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    transition: all .2s cubic-bezier(.37,1.14,.26,1.24);
+}
+
