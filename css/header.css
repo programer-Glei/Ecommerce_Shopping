@@ -1,1 +1,31 @@
 
+header .header-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    width: 100%;
+    z-index: 1000;
+}
+
+header .header-1 .logo{
+    font-size: 2rem;
+    color: #666;
+}
+
+header .header-1 .logo i{
+    color: var(--blue);
+}
+
+header .header-1 .form-container form{
+    display: flex;
+}
+
+header .header-1 .form-container form #search{
+    height: 4rem;
+    width: 50rem;
+    outline: none;
+    border: .2rem solid #666;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
