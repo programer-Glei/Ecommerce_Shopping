@@ -49,8 +49,25 @@ header .header-1 .form-container form label:hover{
     color: yellow;
 }
 
+header .header-2{
+    background: var(--blue);
+}
+
 header .header-2 .navbar ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+header .header-2 .navbar ul li{
+    margin: 0 1rem;
+}
+
+header .header-2 .navbar ul li a{
+    font-size: 2rem;
+    color: #fff;
+}
+
+header .header-2 .navbar ul li a:hover{
+    color: yellow;
 }
