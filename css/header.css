@@ -1,5 +1,5 @@
 
-header .header-1{
+header .header-1, header .header-2{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,4 +47,10 @@ header .header-1 .form-container form label{
 
 header .header-1 .form-container form label:hover{
     color: yellow;
+}
+
+header .header-2 .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
