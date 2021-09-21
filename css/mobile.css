@@ -5,4 +5,19 @@
         font-size: 55%;
 
     }
+
+    header .header-1 .form-container form #search{
+        width: 100%;
+    }
+}
+
+@media (max-width:400px){
+    header .header-1{
+        flex-flow: column;
+        padding: 1rem;
+    }
+
+    header .header-1 .logo{
+        padding-bottom: 1.5rem;
+    }
 }
