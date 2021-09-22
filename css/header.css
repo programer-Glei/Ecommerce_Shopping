@@ -68,6 +68,17 @@ header .header-2 .navbar ul li a{
     color: #fff;
 }
 
-header .header-2 .navbar ul li a:hover{
+header .header-2 .navbar ul li a:hover,
+header .header-2 .navbar ul li a.active{
+    color: yellow;
+}
+
+header .header-2 .icons a{
+    color: #fff;
+    padding: 0 1rem;
+    font-size: 2rem;
+}
+
+header .header-2 .icons a:hover{
     color: yellow;
 }
