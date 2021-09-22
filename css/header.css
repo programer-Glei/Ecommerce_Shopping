@@ -82,3 +82,10 @@ header .header-2 .icons a{
 header .header-2 .icons a:hover{
     color: yellow;
 }
+
+header .header-2 #menu{
+    font-size: 3rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}

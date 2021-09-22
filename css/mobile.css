@@ -9,6 +9,26 @@
     header .header-1 .form-container form #search{
         width: 100%;
     }
+
+    header .header-2 #menu{
+        display: block;
+    }
+
+    header .header-2 .navbar{
+        position: fixed;
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0 0 0 100vh rgba(0, 0, 0, 0.3);
+        z-index: 10000;
+    }
+
+    header .header-2 .navbar ul{
+        flex-flow: column;
+        background: linear-gradient(var(--blue), blueviolet);
+        border: .2rem solid #fff;
+        box-shadow: 0 .3rem .5rem #000;
+        padding: 4rem 0;
+    }
 }
 
 @media (max-width:400px){
