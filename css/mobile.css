@@ -16,10 +16,11 @@
 
     header .header-2 .navbar{
         position: fixed;
-        top: 50%; left: 50%;
+        top: -200rem; left: 50%;
         transform: translate(-50%, -50%);
         box-shadow: 0 0 0 100vh rgba(0, 0, 0, 0.3);
         z-index: 10000;
+        opacity: 0;
     }
 
     header .header-2 .navbar ul{
@@ -28,6 +29,18 @@
         border: .2rem solid #fff;
         box-shadow: 0 .3rem .5rem #000;
         padding: 4rem 0;
+        width: 27rem;
+    }
+
+    header .header-2 .navbar ul li{
+        width: 100%;
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    header .header-2 .navbar ul li a{
+        font-size: 2.5rem;
+        display: block;
     }
 }
 
