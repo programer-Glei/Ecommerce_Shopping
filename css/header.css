@@ -89,3 +89,9 @@ header .header-2 #menu{
     cursor: pointer;
     display: none;
 }
+
+header .header-2.header-active{
+    position: fixed;
+    top: 0; left: 0;
+    box-shadow: 0 .1rem .3rem rgba(0, 0, 0, 0.3);
+}

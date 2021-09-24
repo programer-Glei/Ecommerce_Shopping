@@ -11,6 +11,8 @@ $(document).ready(function(){
 
         if($(window).scrollTop() > 68){
             $('header .header-2').addClass('header-active')
+        }else{
+            $('header .header-2').removeClass('header-active')
         }
     })
 })
