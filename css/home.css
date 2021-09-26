@@ -28,3 +28,24 @@
     padding: 2rem 0;
     width: 50rem;
 }
+
+.home .owl-carousel .owl-prev, .home .owl-carousel .owl-next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    outline: none;
+}
+
+.home .owl-carousel .owl-prev{
+    left: 1.3rem;
+
+}
+
+.home .owl-carousel .owl-next{
+    right: 1.3rem;
+}
+
+.home .owl-carousel .owl-prev span, .home .owl-carousel .owl-next span{
+    color: #fff;
+    font-size: 7rem;
+}
