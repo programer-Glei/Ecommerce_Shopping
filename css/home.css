@@ -1,1 +1,10 @@
 
+.home .home-slider .item{
+    position: relative;
+}
+
+.home .home-slider .item img{
+    height: 100vh;
+    object-fit: cover;
+    width: 100%;
+}
