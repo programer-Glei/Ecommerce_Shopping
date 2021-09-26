@@ -23,3 +23,18 @@ html{
     overflow-x: hidden;
 }
 
+.btn{
+    height: 4rem;
+    width: 14rem;
+    background: var(--blue);
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.btn:hover{
+    letter-spacing: 0.2rem;
+    opacity: 0.8;
+}

@@ -15,4 +15,12 @@ $(document).ready(function(){
             $('header .header-2').removeClass('header-active')
         }
     })
+
+    $('.home-slider').owlCarousel({
+        items: 1,
+        nav: true,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 8000
+    })
 })
