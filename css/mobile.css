@@ -54,6 +54,12 @@
 }
 
 @media (max-width:600px){
+
+    html{
+        font-size: 50%;
+    }
+
+
     .home .home-slider .item .content h3{
         font-size: 3rem;
     }
