@@ -53,6 +53,17 @@
     }
 }
 
+@media (max-width:600px){
+    .home .home-slider .item .content h3{
+        font-size: 3rem;
+    }
+
+    .home .home-slider .item .content p{
+        font-size: 2rem;
+        width: auto;
+    }
+}
+
 @media (max-width:400px){
     header .header-1{
         flex-flow: column;
