@@ -51,3 +51,9 @@
     color: #ff3300;
     font-size: 2rem;
 }
+
+.arrival .box-container .box .info .subInfo .price span{
+    color: #666;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
