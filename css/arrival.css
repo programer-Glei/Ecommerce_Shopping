@@ -32,3 +32,9 @@
     height: 100%;
     object-fit: cover;
 }
+
+.arrival .box-container .box .info h3{
+    padding: 1rem;
+    font-size: 2rem;
+    color: var(--blue);
+}
