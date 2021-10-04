@@ -27,3 +27,8 @@
     text-align: center;
     background: #f0f0f0;
 }
+
+.arrival .box-container .box .image img{
+    height: 100%;
+    object-fit: cover;
+}
