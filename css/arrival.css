@@ -73,3 +73,20 @@
     align-items: center;
     justify-content: center;
 }
+
+.arrival .box-container .box .overlay a{
+    font-size: 2rem;
+    padding: 1.5rem 2rem;
+    background: #fff;
+    color: #666;
+    margin: 1rem;
+    transform: translateY(-15rem);
+}
+
+.arrival .box-container .box:hover .overlay a{
+    transform: translateY(0);
+}
+
+.arrival .box-container .box .overlay a:hover{
+    color: var(--blue);
+}
