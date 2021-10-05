@@ -72,7 +72,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transform: scale(0);
 }
+
+.arrival .box-container .box:hover .overlay{
+    transform: scale(1);
+} 
 
 .arrival .box-container .box .overlay a{
     font-size: 2rem;
@@ -81,6 +86,7 @@
     color: #666;
     margin: 1rem;
     transform: translateY(-15rem);
+    transition-delay: calc(.1s * var(--i));
 }
 
 .arrival .box-container .box:hover .overlay a{
