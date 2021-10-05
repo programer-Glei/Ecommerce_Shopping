@@ -57,3 +57,8 @@
     font-size: 1.5rem;
     text-decoration: line-through;
 }
+
+.arrival .box-container .box .info .subInfo .stars i{
+    color: orange;
+    font-size: 1.5rem;
+}
