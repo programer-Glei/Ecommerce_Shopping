@@ -51,6 +51,10 @@
         top: 50%;
         opacity: 1;
     }
+
+    .arrival .box-container{
+        width: auto;
+    }
 }
 
 @media (max-width:600px){
