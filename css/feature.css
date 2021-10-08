@@ -4,3 +4,27 @@
     background: linear-gradient(165deg, #fff 50%, var(--blue) 50.1%);
     padding-bottom: 2rem;
 }
+
+.feature .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    margin: 3rem auto;
+    width: 95%;
+    background: #fff;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+}
+
+.feature .row .image-container{
+    display: flex;
+    align-items: center;
+}
+
+.feature .row .image-container .big-image img{
+    height: 30rem;
+    margin: 2rem 0;
+    filter: drop-shadow(0 0.1rem 0.5rem #000);
+}
