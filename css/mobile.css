@@ -72,6 +72,28 @@
         font-size: 2rem;
         width: auto;
     }
+
+    .feature .row .image-container{
+        flex-flow: column;
+    }
+
+    .feature .row .image-container .small-image{
+        flex-flow: row wrap;
+        padding-bottom: 2rem;
+    }
+
+    .feature .row .content{
+        padding: 2rem;
+        border-top: 0,1rem solid rgba(0, 0, 0, 0.3);
+    }
+
+    .feature .row .content p{
+        width: auto;
+    }
+
+    .feature .row .content .btn{
+        margin: 2rem 0;
+    }
 }
 
 @media (max-width:400px){
