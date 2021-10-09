@@ -28,3 +28,42 @@
     margin: 2rem 0;
     filter: drop-shadow(0 0.1rem 0.5rem #000);
 }
+
+.feature .row .image-container .small-image{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.feature .row .image-container .small-image img{
+    height: 6rem;
+    padding: 1rem;
+    margin: 1rem;
+    border: 0.1rem solid #666;
+    cursor: pointer;
+}
+
+.feature .row .image-container .small-image img:hover,
+.feature .row .image-container .small-image img.image-active{
+    border: 0.2rem solid var(--blue);
+}
+
+.feature .row .content{
+    padding-left: 6rem;
+}
+
+.feature .row .content h3{
+    font-size: 4rem;
+    color: var(--blue);
+}
+
+.feature .row .content .stars i{
+    font-size: 2rem;
+    color: orange;
+    padding: 1rem 0;
+}
+
+.feature .row .content .stars span{
+    font-size: 2rem;
+    color: #666;
+}
