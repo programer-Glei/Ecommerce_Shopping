@@ -1,1 +1,18 @@
 
+.gallery{
+    min-height: 100vh;
+}
+
+.gallery .controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1.5rem 0;
+}
+
+.gallery .controls .btn{
+    margin: 2rem;
+    line-height: 4rem;
+    text-align: center;
+}
