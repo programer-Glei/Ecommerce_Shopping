@@ -15,4 +15,5 @@
     margin: 2rem;
     line-height: 4rem;
     text-align: center;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
 }
