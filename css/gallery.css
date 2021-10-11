@@ -21,3 +21,18 @@
 .gallery .controls .btn.button-active{
     background: #333;
 }
+
+.gallery .image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery .image-container .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.3);
+}
