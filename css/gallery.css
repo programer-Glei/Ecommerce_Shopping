@@ -17,3 +17,7 @@
     text-align: center;
     box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
 }
+
+.gallery .controls .btn.button-active{
+    background: #333;
+}
