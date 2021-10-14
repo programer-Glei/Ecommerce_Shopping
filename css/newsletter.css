@@ -31,3 +31,18 @@
     border-radius: 5rem;
     background: rgba(0, 0, 0, 0.3);
 }
+
+.newsletter form input[type="email"]{
+    height: 100%;
+    width: 80%;
+    padding: 0 1rem;
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.newsletter form input[type="submit"]{
+    border-radius: 5rem;
+}
