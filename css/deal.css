@@ -1,0 +1,20 @@
+
+.deal{
+    min-height: 100vh;
+}
+
+.deal .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.deal .box-container .box{
+    flex: 1 1 40rem;
+    height: 25rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+}
