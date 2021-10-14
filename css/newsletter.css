@@ -8,3 +8,26 @@
     padding: 4rem 1rem;
     text-align: center;
 }
+
+.newsletter h1{
+    color: #fff;
+    font-size: 4rem;
+}
+
+.newsletter p{
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.newsletter form{
+    height: 5.5rem;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5rem;
+    background: rgba(0, 0, 0, 0.3);
+}
