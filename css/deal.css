@@ -17,4 +17,17 @@
     border-radius: 1rem;
     overflow: hidden;
     position: relative;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+.deal .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.deal .box-container .box .content{
+    position: absolute;
+    top:55%; left: 3rem;
+    transform: translateY(-50%);
 }
