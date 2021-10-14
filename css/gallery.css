@@ -79,5 +79,6 @@
 }
 
 .gallery .image-container .box .info .subInfo .stars i{
-    
+    color: orange;
+    font-size: 1.5rem;
 }

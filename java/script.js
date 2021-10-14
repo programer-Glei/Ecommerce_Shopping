@@ -32,4 +32,14 @@ $(document).ready(function(){
 
         $('.big-image img').attr('src', image)
     })
+
+    $('.gallery .btn').click(function(){
+        let filter = $(this).attr('data-filter')
+        if(filter == 'all'){
+            $('.gallery .box').show(400)
+        }else{
+            $('.gallery .box').not('.'+filter).hide(200)
+            $('.gallery .box').filter('.'+filter).show(400)
+        }
+    })
 })
