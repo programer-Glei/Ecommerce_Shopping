@@ -14,6 +14,18 @@ $(document).ready(function(){
         }else{
             $('header .header-2').removeClass('header-active')
         }
+
+        $('section').each(function(){
+            let height = $(this).height()
+            let offset = $(this).offset().top - 200
+            let top = $(window).scrollTop()
+            let id = $(this).attr('id')
+
+            if(top >= offset && top < offset + height){
+                $('.navbar ul li a').removeClass('active')
+                $('.navbar').find(`[href="#${id}"]`).addClass('active')
+            }
+        })
     })
 
     $('.home-slider').owlCarousel({
@@ -41,5 +53,7 @@ $(document).ready(function(){
             $('.gallery .box').not('.'+filter).hide(200)
             $('.gallery .box').filter('.'+filter).show(400)
         }
+
+        $(this).addClass('button-active').siblings().removeClass('button-active')
     })
 })
