@@ -1,0 +1,10 @@
+
+.newsletter{
+    background: linear-gradient(var(--blue),var(--blue)), url(../images/deal1.jpg) no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 4rem 1rem;
+    text-align: center;
+}
