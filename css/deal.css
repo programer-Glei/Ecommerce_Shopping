@@ -52,6 +52,7 @@
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    flex-wrap: wrap;
 }
 
 .deal .icons-container .icons{
@@ -60,4 +61,21 @@
     margin: 1rem;
     text-align: center;
     border: 0.2rem solid var(--blue);
+}
+
+.deal .icons-container .icons i{
+    color: var(--blue);
+    font-size: 4rem;
+    padding: 1rem 0;
+}
+
+.deal .icons-container .icons h3{
+    color: #333;
+    font-size: 2rem;
+}
+
+.deal .icons-container .icons p{
+    color: #666;
+    font-size: 1.3rem;
+    padding: 1rem 0;
 }
