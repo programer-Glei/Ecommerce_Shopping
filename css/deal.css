@@ -31,3 +31,18 @@
     top:55%; left: 3rem;
     transform: translateY(-50%);
 }
+
+.deal .box-container .box .content h3{
+    font-size: 3.5rem;
+    color: #fff;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+.deal .box-container .box .content p{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.deal .box-container .box .content .btn{
+    margin: 1.4rem 0;
+}
