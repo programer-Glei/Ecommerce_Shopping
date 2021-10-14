@@ -54,3 +54,19 @@
 .gallery .image-container .box:hover .image{
     background: #ccc;
 }
+
+.gallery .image-container .box .info{
+    width: 100%;
+}
+
+.gallery .image-container .box .info h3{
+    font-size: 2rem;
+    color: var(--blue);
+    padding: 1rem;
+}
+
+.gallery .image-container .box .info .subInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
